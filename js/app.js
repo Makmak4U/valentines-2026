@@ -30,7 +30,7 @@ no.addEventListener("click", () => {
     no.style.width = "30%";
     count++;
   } else if (count == 3) {
-    gif.src = "../resources/3shocked-1.mp4";// gif credit: https://tenor.com/view/tkthao219-peach-goma-gif-25008901
+    gif.src = "../resources/3shocked-1.gif";// gif credit: https://tenor.com/view/tkthao219-peach-goma-gif-25008901
     text.innerHTML = "Luh? Di nga? Joke lang yan diba?🥹";
     yes.style.height = "70%";
     yes.style.width = "70%";
@@ -45,7 +45,7 @@ no.addEventListener("click", () => {
     no.style.width = "10%";
     count++;
   } else if (count == 5) {
-    gif.src = "../resources/5.crying.gif";// gif credit: https://tenor.com/view/cat-gif-10173437195524493032
+    gif.src = "../resources/5.crying.png";// gif credit: https://tenor.com/view/cat-gif-10173437195524493032
     text.innerHTML = "Ihhh please be my valentine :<";
     yes.style.height = "90%";
     yes.style.width = "96%";
@@ -66,3 +66,4 @@ yes.addEventListener("click", () => {
     vid.style.display = "none";
   }, 9000);
 });
+
