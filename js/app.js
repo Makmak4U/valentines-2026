@@ -57,7 +57,7 @@ yes.addEventListener("click", () => {
   vid.style.display = "block";
   gif.src = "resources/idc.gif";// gif credit: https://tenor.com/view/peach-cat-kiss-animated-love-mwah-gif-25743978
   text.innerHTML = "Sabi na nga ba eh heheheh, see you bukas gorgeous 😘❤️";
-  yes.innerHTML = "Message mo na lang ako kung ano oras kita pd puntahan";// inside the " " put your social media profile link
+  yes.innerHTML = '<a href="https://www.facebook.com/markgil.zapata.3">Message mo lang me</a>';// inside the " " put your social media profile link
   yes.style.height = "70%";
   yes.style.width = "76%";
   no.style.display = "none";
@@ -65,6 +65,7 @@ yes.addEventListener("click", () => {
     vid.style.display = "none";
   }, 9000);
 });
+
 
 
 
