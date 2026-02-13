@@ -10,7 +10,6 @@ const gifs = [
   "../resources/rusure.gif",
   "../resources/3shocked-1.gif",
   "../resources/4.crying.gif",
-  "../resources/5.crying.png",
   "../resources/idc.gif"
 ];
 
@@ -66,5 +65,6 @@ yes.addEventListener("click", () => {
     vid.style.display = "none";
   }, 9000);
 });
+
 
 
